@@ -21,7 +21,7 @@ send_Button.addEventListener("click", () => {
     message_List.appendChild(message);
 
     const inputText = input.value.toLowerCase();
-    let intent = "Default"; // Varsayılanı burada tanımladım. intent olarak çağırabilirisn.
+    let intent = "Default"; 
 
     if (inputText.includes("merhaba") || inputText.includes("selam")) {
       intent = "Greeting";
